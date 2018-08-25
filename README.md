@@ -1,6 +1,6 @@
 # kube-aws-iam-controller AWS Java SDK Example
 
-This is an example demo/verify that the [AWS Java
+This is an example to demo/verify that the [AWS Java
 SDK](https://github.com/aws/aws-sdk-java) works with the
 [kube-aws-iam-controller](https://github.com/mikkeloscar/kube-aws-iam-controller).
 
