@@ -37,11 +37,11 @@ spec:
       volumes:
       - name: aws-iam-credentials
         secret:
-          secretName: aws-iam-java-example # name of the AWSIAMRole resource
+          secretName: java-aws-iam-example # name of the AWSIAMRole resource
 ---
 apiVersion: zalando.org/v1
 kind: AWSIAMRole
 metadata:
-  name: aws-iam-java-example
+  name: java-aws-iam-example
 spec:
   roleReference: aws-iam-example
